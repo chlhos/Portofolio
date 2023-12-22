@@ -1,0 +1,263 @@
+#101010
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.Home {
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: gray;
+    border-bottom: 1px solid white;
+}
+.logo {
+    color: white;
+    font-size: 33px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: white;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li {
+    color:  white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: white;
+    transition: 0.5s;
+}
+.Button {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.Button:hover {
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+.image {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    transform: rotate(180deg);
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    transform: translate(20%);
+}
+.comtent {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translate(-50%);
+}
+h3 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.comtent a {
+    font-size: 20px;
+    background: white;
+    color: red;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: .5s;
+}
+.comtent a:hover {
+    background: transparent;
+    border: 2px solid white;
+}
+.About {
+    width: 100%;
+    padding: 100px 0;
+    background-color: black;
+}
+.About-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.About-me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.About-text {
+    width: 550px;
+}
+.About-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.About-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.Button {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.Button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.Services {
+    background-color: gray;
+    width: 100%;
+    padding: 100px 0;
+}
+.Title h2 {
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.Card {
+    height: 365px;
+    width: 270px;
+    padding: 20px 35px;
+    background: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid red;
+}
+.Card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: white;
+}
+.Card h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.Pra p {
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.Pra p a {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+.Pra p a:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.Skill {
+    background: red;
+    width: 100%;
+    padding: 100px 0;
+}
+.Skill-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.Skill-bar p {
+    text-align: left;
+}
+.Skill-box {
+    text-align: right;
+    width: 100%;
+    background-color: red;
+}
+.HTML {
+    width: 90%;
+    background-color: white;
+}
+.CSS {
+    width: 80%;
+    background-color: white;
+}
+.JAVA {
+    width: 90%;
+    background-color: white;
+}
+.php {
+    width: 90%;
+    background-color: white;
+}
+.python {
+    width: 80%;
+    background-color: white;
+}
+.mysql {
+    width: 90%;
+    background-color: white;
+}
